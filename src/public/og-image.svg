@@ -1,0 +1,63 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#000000"/>
+  
+  <!-- Grid pattern background -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#0066FF" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  
+  <!-- Gradient overlay -->
+  <defs>
+    <radialGradient id="bgGradient" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="0%" style="stop-color:#0066FF;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Central icon/logo -->
+  <g transform="translate(450, 215)">
+    <!-- Outer glow -->
+    <circle cx="150" cy="100" r="80" fill="url(#iconGlow)" opacity="0.3"/>
+    
+    <!-- Core -->
+    <circle cx="150" cy="100" r="50" fill="url(#iconGradient)" stroke="#00D9FF" stroke-width="3"/>
+    
+    <!-- Connection lines -->
+    <path d="M150 20 L150 50" stroke="#00D9FF" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    <path d="M230 100 L200 100" stroke="#00D9FF" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    <path d="M150 180 L150 150" stroke="#00D9FF" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    <path d="M70 100 L100 100" stroke="#00D9FF" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    
+    <!-- Center point -->
+    <circle cx="150" cy="100" r="8" fill="#00D9FF"/>
+    
+    <defs>
+      <radialGradient id="iconGradient" cx="0.3" cy="0.3" r="1">
+        <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.4" />
+        <stop offset="100%" style="stop-color:#0066FF;stop-opacity:0.2" />
+      </radialGradient>
+      <radialGradient id="iconGlow" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.6" />
+        <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:0" />
+      </radialGradient>
+    </defs>
+  </g>
+  
+  <!-- Text content -->
+  <text x="600" y="460" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="-2">
+    TDTM
+  </text>
+  
+  <text x="600" y="510" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="400" fill="#00D9FF" text-anchor="middle" letter-spacing="0">
+    Data Identity Activation Platform
+  </text>
+  
+  <text x="600" y="555" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="300" fill="#FFFFFF" text-anchor="middle" opacity="0.7">
+    50% Match Rate • 100+ Platform Integrations • Custom Audiences
+  </text>
+</svg>
